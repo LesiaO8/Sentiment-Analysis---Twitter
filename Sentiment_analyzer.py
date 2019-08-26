@@ -14,7 +14,8 @@ auth.set_access_token(access_token, access_token_secret)
 
 api=tweepy.API(auth)
 
-public_tweets = api.search("Weather")
+#Keyword we are using is "Global Warming" 
+public_tweets = api.search("Global Warming")
 
 #output the sentiment tuple to a file and process the data per your requirements
 with open("output.txt", 'a') as the_file:
