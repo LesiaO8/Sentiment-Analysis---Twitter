@@ -1,6 +1,6 @@
 import tweepy
 from textblob import TextBlob
-
+#commented by lesia
 consumer_key="ENTER YOUR CONSUMER KEY"
 consumer_secret="ENTER YOUR CONSUMER SECRET KEY"
 
